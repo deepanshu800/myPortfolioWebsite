@@ -100,14 +100,15 @@ h1 {
 
 .header-text {
   margin-top: 20%;
-  font-size: 30px;
+  font-size: 2.5vw;
   z-index: 9;
   position: absolute;
 }
 
 .header-text h1 {
-  font-size: 60px;
+  font-size: 4vw;
   margin-top: 20px;
+  position: absolute;
 }
 
 .header-text h1 span {
@@ -118,7 +119,7 @@ h1 {
 #about {
   padding: 80px 0;
   color: #ababab;
-  background-image: url(./images/background.jpg);
+  background-image: url(./images/black.jpg);
 }
 
 .row {
@@ -197,7 +198,7 @@ h1 {
 /* ------------services------------ */
 #services {
   padding: 30px 0;
-  background-image: url(images/background.jpg);
+  background-image: url(images/black.jpg);
 }
 .services-list {
   display: grid;
@@ -234,10 +235,40 @@ h1 {
   transform: translateY(-10px);
 }
 
+/*-----------------my Certificates------------------*/
+
+#certificate {
+  min-height: 40vw;
+  padding: 6vw 6vw;
+  width: 100%;
+  background-image: url(images/black.jpg);
+  background-position: center;
+  z-index: 0;
+}
+#certificate h1 {
+  font-size: 60px;
+  margin-bottom: 80px;
+}
+.certificate-list .sub-title1 {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 30px;
+  font-weight: 100;
+}
+.sub-title1 svg {
+  margin-left: 20px;
+  width: 15px;
+  height: 15px;
+  fill: #ffffff;
+}
+
 /* ------------portfolio------------ */
 #portfolio {
   padding: 50px 0;
-  background-image: url(/images/background.jpg);
+  background-image: url(/images/black.jpg);
 }
 .work-list {
   display: grid;
@@ -319,7 +350,7 @@ h1 {
 /* ----------------contact----------- */
 
 #contact {
-  background-image: url(images/background.jpg);
+  background-image: url(images/black.jpg);
   height: fit-content;
 }
 .contact-left {
@@ -406,8 +437,7 @@ nav .fa-solid {
     font-size: 6vw;
   }
   .header-text {
-    margin-top: 100%;
-    font-size: 4vw;
+    margin-top: 40%;
   }
   .header-text h1 {
     font-size: 5vw;
@@ -467,4 +497,8 @@ nav .fa-solid {
   color: #61b752;
   margin-top: -40px;
   display: block;
+}
+
+#certificate h1 {
+  font-size: 40px;
 }
