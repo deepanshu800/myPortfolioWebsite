@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deepanshu Bhargav</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script
+      src="https://kit.fontawesome.com/fbcbd03c5a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div id="header">
+      <div class="shadow"></div>
+      <div class="container">
+        <nav>
+          <h1 id="logo">D<span>eepanshu.</span></h1>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+          <p>Website Developer</p>
+          <h1>Hi, I am <span>Deepanshu</span> <br />Bhargav</h1>
+        </div>
+      </div>
+    </div>
+
+    <!----------about-------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/my_pic.jpg" alt="About-img" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hey there! 👋 I'm Deepanshu, a passionate Website Developer on a mission to craft immersive digital experiences that leave a lasting impact. With a dynamic skill set spanning MySQL, ReactJS, MongoDB, HTML5, CSS, NodeJS, Firebase, and Redux, I'm equipped to turn visionary ideas into stunning realities.
+<br/><br/>But that's just the tip of the iceberg! My thirst for knowledge and hunger for innovation drive me to explore the cutting-edge realms of Web Development, Open Source Contribution, Competitive Programming, Artificial Intelligence, and Machine Learning. Whether I'm diving into the intricate world of algorithms or unraveling the mysteries of neural networks, I'm always eager to push the boundaries of what's possible.
+<br/><br/>My journey as a Coding Enthusiast has seen me conquer over 400 DSA problems across platforms like Leetcode, GeeksforGeeks, CodingNinja, and CodeStudio. Each challenge conquered is a testament to my relentless determination and unwavering commitment to excellence.
+From building sleek, user-centric websites to delving into the realms of AI and ML, I thrive on the thrill of exploration and the joy of creation. Every line of code is a stroke of creativity, every project an opportunity to make a difference.            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('coding-profiles')">coding-profiles</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>REACT.JS</span><br />Building frontend</li>
+                <li><span>MongoDB</span><br />Managing Database</li>
+                <li><span>Node.js</span><br />building backend</li>
+                <li><span>Vercel</span><br />Hosting and Deployment</li>
+                <li><span>Kubernetes</span><br />Scalability</li>
+                <li><span>JWT</span><br />Authentication and Authorization</li>
+                <li><span>Stripe</span><br />Payment Integration</li>
+                <li><span>C++</span><br />Competetive Programming</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Aug 2023 - Sept 2023</span><br />Software Engineer
+                  Trainee @sampark softwares Pvt. Ltd.
+                </li>
+                <p>
+                  <ul>
+                    <li>Integrated ChatGPT API, resulting in a 20% growth in chatbot responses, leading to enhanced user interaction and increased engagement.
+                    </li>
+                    <li>Implemented a Google Lens-like feature for image scanning within the chatbot, resulting in a 30% increase in user engagement, as users can now capture and analyze images using the device's camera.
+                    </li>
+                    <li>Tech. used - Node.js, API, Javascript
+                    </li>
+                  </ul>
+                </p>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2019 - 2023</span><br />B.Tech. (CSE) @ University
+                  Institute of Engineering & Technology, Maharshi Dayanand
+                  University, Rohtak, Haryana.
+                </li>
+                <li>
+                  <span>2017 - 2018</span><br />12th @ KCM Public High School
+                  Palwal, Haryana
+                </li>
+                <li>
+                  <span>2015 - 2016</span><br />10th @ Vidya Bharti Public
+                  School Palwal, Haryana
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="coding-profiles">
+              <ul>
+                <li>
+                  <span>Leetcode</span><br /><a style="color: white;" href="https://leetcode.com/Deepanshukoli/">leetcode profile link</a>
+                </li>
+                <li>
+                  <span>Geeksforgeeks</span><br /><a style="color: white;" href="https://auth.geeksforgeeks.org/user/Deepanshukoli">GeeksforGeeks profile link</a>
+                </li>
+                <li>
+                  <span>Hackerrank</span><br /><a style="color: white;" href="https://www.hackerrank.com/profile/Deepanshukoli">Hackerrank profile link</a>
+                </li>
+                <li>
+                  <span>Coding Ninjas</span><br /><a style="color: white;" href="https://www.codingninjas.com/studio/profile/241dfb5e-bfdd-40b0-b3d1-ff1664d6ea72">Coding Ninjas profile link</a>
+                </li>
+                <li>
+                  <span>Codechef</span><br /><a style="color: white;" href="https://www.codechef.com/users/Deepanshukoli015">Codechef profile link</a>
+                </li>
+                <li>
+                  <span>Codeforces</span><br /><a style="color: white;" href="https://codeforces.com/profile/iamkoli">Codeforces profile link</a>
+                </li>                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------services------------- -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Frontend Development</h2>
+            <p>
+              🚀 Elevate your online presence with cutting-edge web applications
+              that marry stunning design with seamless functionality. As a
+              dedicated frontend web app developer, I specialize in bringing
+              your digital vision to life, ensuring a user experience that
+              captivates and converts.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Backend Development</h2>
+            <p>
+              Harnessing the power of cutting-edge technologies, I specialize in
+              crafting the backbone of web applications. From server-side logic
+              to database management, I ensure your web app runs smoothly and
+              efficiently.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Welcome to the digital realm where creativity meets functionality
+              – I am Deepanshu, a seasoned web app developer and mastermind behind
+              transformative web design experiences. Crafting captivating and
+              cutting-edge websites is not just my profession; it's my passion.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------portfolio------------ -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <!-- <div class="work">
+            <img src="images/weather.jpg" alt="work-1" />
+            <div class="layer">
+              <h3>React Weather application</h3>
+              <p>
+                The app that help you to know weather of any location in the
+                world.
+              </p>
+              <a href="https://weather-report-by-nitestark.netlify.app/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/todo-list.jpg" alt="work-2" />
+            <div class="layer">
+              <h3>React todo List</h3>
+              <p>The app that helps you to write your tasks to do.</p>
+              <a href="https://todo-list-jsl5.onrender.com/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" alt="work-3" />
+            <div class="layer">
+              <h3>Number Game</h3>
+              <p>
+                A simple guessing Number game in which user guess a random
+                number chosen by computer.
+              </p>
+              <a href="https://Deepanshukoli.github.io/guess-my-number/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/daily-journal.webp" alt="work-3" />
+            <div class="layer">
+              <h3>Daily Journal</h3>
+              <p>
+                A simple blog post web app where user can posts their daily journal blog.
+              </p>
+              <a href="https://blog-post-8glo.onrender.com/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/tindog.jpg" alt="work-3" />
+            <div class="layer">
+              <h3>Tindog Website</h3>
+              <p>
+                A simple website to showcase web design skill.
+              </p>
+              <a href="https://Deepanshu-kohli.github.io/tindog-website/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/currency-converter.webp" alt="work-3" />
+            <div class="layer">
+              <h3>Currency Converter</h3>
+              <p>
+                An awesome and easy to use currency converter.
+              </p>
+              <a href="https://currency-converter-ivory-nine.vercel.app/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/keyboard-magic.jpg" alt="work-3" />
+            <div class="layer">
+              <h3>keyboard-magic(DESKTOP)</h3>
+              <p>
+                This is a simple project in which when user press any key it is shown on screen.
+              </p>
+              <a href="https://Deepanshu-kohli.github.io/keyboard-magic/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/unlimited-colors.jpg" alt="work-3" />
+            <div class="layer">
+              <h3>unlimited-colors</h3>
+              <p>
+                This a unlimited-colors project in which there are unlimited colors changing and you can stop on one of them.
+              </p>
+              <a href="https://Deepanshu-kohli.github.io/unlimited-colors/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/digital-clock.webp" alt="work-3" />
+            <div class="layer">
+              <h3>Digital-Clock</h3>
+              <p>
+                This is a digital clock project - a basic level project to learn JAVASCRIPT.
+              </p>
+              <a href="https://Deepanshu-kohli.github.io/Digital-Clock/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/bmi-calculator.webp" alt="work-3" />
+            <div class="layer">
+              <h3>BMI-Calculator</h3>
+              <p>
+                This is a simple BMI Calculator Project - a basic level project to learn JAVASCRIPT.
+              </p>
+              <a href="https://Deepanshu-kohli.github.io/BMI-Calculator/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/color-changer.webp" alt="work-3" />
+            <div class="layer">
+              <h3>color-changer</h3>
+              <p>
+                This is a color changer project - a basic level project to learn javascript.
+              </p>
+              <a href="https://Deepanshu-kohli.github.io/color-changer/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/virtual-mouse.jpg" alt="work-3" />
+            <div class="layer">
+              <h3>virtual-mouse</h3>
+              <p>
+                this is a virtual mouse using python. Now you can cantrol your pc without even touching it.
+              </p>
+              <a href="https://www.youtube.com/watch?v=mocKBRWSckA&ab_channel=DeepanshuKoli"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/emoji-pedia.jpg" alt="work-3" />
+            <div class="layer">
+              <h3>emojipedia</h3>
+              <p>
+                This is a react app which help to know meaning of your favourite emojis you use while chatting.
+              </p>
+              <a href="https://emojipedia-xy2i.onrender.com/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/drum-kit.jpg" alt="work-3" />
+            <div class="layer">
+              <h3>Drum kit simulation</h3>
+              <p>
+                this is simple simulation of drum kit.
+              </p>
+              <a href="https://Deepanshu-kohli.github.io/drum-kit/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/red-dice.jpg.webp" alt="work-3" />
+            <div class="layer">
+              <h3>Dice Game</h3>
+              <p>
+                simple Dice game whenever you refresh random number generated.
+              </p>
+              <a href="https://Deepanshu-kohli.github.io/dice-game/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/pokedex.jpg" alt="work-3" />
+            <div class="layer">
+              <h3>Pokedex</h3>
+              <p>
+                Pokedex fetching data from pokemon api
+              </p>
+              <a href="https://Deepanshu-kohli.github.io/Pokedex/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/grocery-list.jpg" alt="work-3" />
+            <div class="layer">
+              <h3>Grocery List</h3>
+              <p>
+                A simple Grocery list app.
+              </p>
+              <a href="https://Deepanshu-kohli.github.io/grocery-list/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div> -->
+          <div class="work">
+            <img src="images/expensesPhoto.jpg" alt="work-1" />
+            <div class="layer">
+              <h3>React Weather application</h3>
+              <p>
+                The app that help you to know weather of any location in the
+                world.
+              </p>
+              <a href="https://expenser-chart-app.netlify.app/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <a href="#" class="btn">SEE MORE</a>
+      </div>
+    </div>
+
+    <!-- -----------contact--------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>deepanshubhargav739@gmail.com
+            </p>
+            <p><i class="fa-solid fa-square-phone"></i>+91 9991626632</p>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/sketch.deep/"
+                ><i class="fa-brands fa-square-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/deepanshu-bhargav/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/deepanshu800"
+                ><i class="fa-brands fa-github"></i></i
+              ></a>
+            </div>
+            <a href="images/Deepanshu Web Developer.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2" onclick="sent()">
+                Submit
+              </button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright <i class="fa-solid fa-copyright"></i> Deepanshu Bhargav. Made
+          with <i class="fa-solid fa-heart"></i> by Deepanshu
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
