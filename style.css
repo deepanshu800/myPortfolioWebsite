@@ -313,6 +313,7 @@ h1 {
 .layer h3 {
   font-weight: 500;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 .layer a {
   margin-top: 20px;
